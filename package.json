@@ -1,0 +1,26 @@
+{
+  "name": "ez-harvest",
+  "version": "0.0.1",
+  "description": "Pluggable Captcha harvester",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kfichter/ez-harvest.git"
+  },
+  "author": "Kelvin Fichter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kfichter/ez-harvest/issues"
+  },
+  "homepage": "https://github.com/kfichter/ez-harvest#readme",
+  "dependencies": {
+    "electron": "^1.8.3",
+    "express": "^4.16.3",
+    "uuid": "^3.2.1",
+    "ws": "^5.0.0"
+  }
+}
