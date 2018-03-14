@@ -2,6 +2,8 @@
 
 `ez-harvest` is a simple interface for harvesting Captcha tokens locally.
 
+![screenshot](https://i.imgur.com/RDmvgt8.png)
+
 ## Overview
 
 `ez-harvest` is designed to make Captcha harvesting as easy as possible. Currently, it only supports ReCaptcha, but we have plans to support other legacy Captcha systems. `ez-harvest` is designed to be used by bots. It's similar to `captcha-harvester`, except that you'll only see a Captcha challenge window when the bot requests it.
