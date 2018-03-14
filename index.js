@@ -19,7 +19,7 @@ class EzHarvest {
       throw new Error('ez-harvest already running');
     }
 
-    this.child = proc.spawn(electron, ['.', '--programmatic']);
+    this.child = proc.spawn(electron, ['./main.js', '--programmatic']);
 
     return new Promise((resolve) => {
       const initInterval = setInterval(() => {
