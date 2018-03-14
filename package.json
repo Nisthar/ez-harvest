@@ -1,6 +1,6 @@
 {
   "name": "ez-harvest",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Pluggable Captcha harvester",
   "main": "index.js",
   "scripts": {
